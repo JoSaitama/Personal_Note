@@ -25,7 +25,7 @@ Run these first when the server disk is almost full.
 df -h /
 
 # Show whether /home, /tmp, and /var share the same root disk
-df -h / /home /tmp /var
+df -h /home /tmp /var 2>/dev/null 
 
 # Show inode usage
 df -ih /
